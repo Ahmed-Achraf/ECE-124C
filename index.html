@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Registration Form</title>
+            <link rel="stylesheet" href="CSS.css" />
+            
+        </head>
+        <body>
+          <nav>
+            <ul>
+            <li><a href="HTML1.html" target="_blank">page1</a></li>
+            <li><a href="HTML2.html" target="_blank">page2</a></li>
+            <li><a href="HTML3.html" target="_blank">page3</a></li>
+            <li><a href="HTML4.html" target="_blank">page4</a></li>
+            </ul>
+          </nav>
+   <div class="wrapper">
+  <h2>Registration Form</h2>
+  <div id="error_message">
+     
+  </div>
+  <form action="" id= "myform" onsubmit = "return validate();" method="get">
+    <div class="input_field">
+        <input type="text" placeholder="First name" id="fname" name="fname" required>
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Last name" id="lname" name="lname" required>
+    </div>
+    <div class="input_field">
+        <input type="password" placeholder="Password" id="password" pattern="[A-Z]{1}.{7}" title="password must begin with uppercase and must be 8 characters only" name="password" required>
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Phone" id="phone" name="phone" required>
+    </div>
+    <div class="inputfield">
+        <div class="custom_select" required>
+            <select name="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Email" id="email" name="email" required>
+        </div>
+        <div class="input_field">
+            <textarea placeholder="Address" id="address" required></textarea>
+        </div>
+
+        <div class="btn">
+            <input type="submit" value="register">
+        </div>
+
+</form>
+   </div>
+    <script src="JS.js"></script>
+        </body>
+    </html>

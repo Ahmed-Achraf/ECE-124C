@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>First page</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        </head>
+        <style>
+            img:hover{
+            opacity: .5;
+            }
+        </style>
+        <body data-spy="scroll" data-target=".navbars">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Welcome to our cars website</a>
+                         </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#services">Showcase</a></li>   
+                        </ul>
+                </div>
+            </nav>
+            <div id="home" style="padding-top:30px; background:url(auto/images/bg2.jpg);">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                   <div class="item active"><img src="auto/images/cars/sliders/slider1.png" alt="BMW" style="width:100%;"></div>
+                   <div class="item"><img src="auto/images/cars/sliders/slider2.png" alt="BMW" style="width:130%;"></div>
+                   <div class="item"><img src="auto/images/cars/sliders/slider3.png" alt="BMW" style="width:100%;"></div> 
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            </div>
+            <section id="services" style="background: url(auto/images/bg.jpg); background-size:100% 100%;">
+                <div class="container">
+                    <div class="page-header">
+                      <h2 class="text-center">our cars </h2></div>
+                      <p class="text-center">Our cars store has a perfect and multi-kinds of cars that will surprise you </p>
+                    <div class="row">
+                        <div class="col-md-3">
+                           <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="text-center">BMW</h4>
+                            </div>
+                            <div class="panel-body">
+                                <img src="auto/images/cars/bmw.png" width="98%" class="center-block">
+                                <h4 class="text-center">New in stock</h4>
+                                <p class="text-center">This type of cars is really amazing but most expensive.
+                                </p>
+                            </div>
+                            <div class="panel-footer"><center><button class="btn btn-info" data-toggle="modal" data-target=
+                            "#modal2">
+                              View Gallery  <br />
+                              <span class="label label-warning">40 cars in stock</span> 
+                            </button></center>
+                            <div  class="modal" id="modal2">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header"><h4 class="text-center">BMW SHOWCASE</h4></div>
+                                    <div class="modal-body">
+                                        <center>
+                                            <img src="auto/images/cars/cars/bmw1.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/bmw2.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/bmw3.jpg" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/bmw4.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/bmw5.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/bmw6.png" width="30%" class="img-thumbnail">
+                                        </center>
+                                    </div>
+                                      <div class="modal-footer"><button class="btn btn-danger" data-dismiss="modal"> close
+                                      </button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                           </div> 
+                        </div>
+                       <div class="col-md-3">
+                           <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="text-center">MERCEDES</h4>
+                            </div>
+                            <div class="panel-body">
+                                <img src="auto/images/cars/mercedes.png" width="115%" class="center-block">
+                                <h4 class="text-center">New in stock</h4>
+                                <p class="text-center">This type of cars is brilliant and less expensive than bmw
+                                </p>
+                            </div>
+                            <div class="panel-footer"><center><button class="btn btn-info" data-toggle="modal" data-target=
+                            "#modal1">
+                              View Gallery  <br />
+                              <span class="label label-warning">50 cars in stock</span> 
+                            </button></center>
+                            <div class="modal" id="modal1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header"><h4 class="text-center">MERCEDES SHOWCASE</h4></div>
+                                      <div class="modal-body">
+                                        <center>
+                                            <img src="auto/images/cars/cars/m1.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/m2.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/m3.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/m4.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/m5.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/m6.png" width="30%" class="img-thumbnail">
+                                        </center>
+                                      </div>
+                                     <div class="panel-footer"><center><button class="btn btn-info" data-toggle="model" data-target=
+                            "#modal3">
+                              View Gallery  <br />
+                              <span class="label label-warning">60 cars in stock</span> 
+                            </button></center>
+                            <div class="modal" id="modal3">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header"><h4 class="text-center">HYUANDAI SHOWCASE</h4></div>
+                                      <div class="modal-body">
+                                        <center>
+                                            <img src="auto/images/cars/cars/h1.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/h2.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/h3.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/h4.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/h5.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/h6.png" width="30%" class="img-thumbnail">
+                                        </center>
+                                      </div>
+                                      <div class="modal-footer"><button class="btn btn-danger" data-dismiss="modal"> close
+                                      </button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                           </div> 
+                        </div>
+                       <div class="col-md-3">
+                           <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="text-center">HYUNDAI</h4>
+                            </div>
+                            <div class="panel-body">
+                                <img src="auto/images/cars/hyundai.png" width="95%" class="center-block">
+                                <h4 class="text-center">New in stock</h4>
+                                <p class="text-center">This type of cars is really good and is available in different prices
+                                </p>
+                            </div>
+                            <div class="panel-footer"><center><button class="btn btn-info">
+                              View Gallery  <br>
+                              <span class="label label-warning">60 cars in stock</span> 
+                            </button></center>  
+                            </div>
+                           </div> 
+                        </div>
+                        <div class="col-md-3">
+                           <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4 class="text-center">MAZDA</h4>
+                            </div>
+                            <div class="panel-body">
+                                <img src="auto/images/cars/mazda.png" width="85%" class="center-block">
+                                <h4 class="text-center">New in stock</h4>
+                                <p class="text-center">This type of cars has the less price and available in diffrent brands.
+                                </p>
+                            </div>
+                            <div class="panel-footer"><center><button class="btn btn-info" data-toggle="modal" data-target=
+                             "#modal4">
+                              View Gallery  <br />
+                              <span class="label label-warning">40 cars in stock</span> 
+                             </button></center>
+                             <div class="modal" id="modal4">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header"><h4 class="text-center">MAZDA SHOWCASE</h4></div>
+                                      <div class="modal-body">
+                                        <center>
+                                            <img src="auto/images/cars/cars/mz1.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/mz2.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/mz3.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/mz4.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/mz5.png" width="30%" class="img-thumbnail">
+                                            <img src="auto/images/cars/cars/mz6.png" width="30%" class="img-thumbnail">
+                                        </center>
+                                      </div>
+                                      <div class="modal-footer"><button class="btn btn-danger" data-dismiss="modal"> close
+                                      </button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                           </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+        </body>
